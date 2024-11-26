@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FocusFlow</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #06f64a;
+      color: #fff;
+      padding: 1rem 2rem;
+    }
+    header h1 {
+      margin: 0;
+    }
+    header .btn {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    header .btn:hover {
+      background-color: #45a049;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    section h2 {
+      color: #333;
+      margin-bottom: 0.5rem;
+    }
+    section p {
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FocusFlow</h1>
+    <button class="btn" onclick="downloadApp()">Download Now</button>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Mission</h2>
+      <p>To empower individuals by providing actionable insights into their daily routines, helping them stay focused on productive tasks, and maximize their potential through structured scheduling and real-time feedback.</p>
+    </section>
+    <section>
+      <h2>Values</h2>
+      <ul>
+        <li><strong>Accountability:</strong> Encouraging users to take ownership of their time and decisions.</li>
+        <li><strong>Efficiency:</strong> Streamlining daily activities to foster better time management.</li>
+        <li><strong>Growth:</strong> Supporting continuous personal and professional improvement through data-driven insights.</li>
+        <li><strong>Balance:</strong> Helping users maintain a healthy balance between work and personal life by promoting mindful productivity.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Features</h2>
+      <p>Explore powerful features like structured scheduling, real-time feedback, and actionable insights to optimize your productivity.</p>
+    </section>
+  </div>
+
+  <script>
+    function downloadApp() {
+      window.location.href = "FocusFlow.exe"; // Replace with the actual path to your application file
+    }
+  </script>
+</body>
+</html>
